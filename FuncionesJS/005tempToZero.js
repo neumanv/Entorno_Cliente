@@ -1,5 +1,16 @@
 "use strict"
 
-let num1 = prompt("Número:");
-let num2 = prompt("Número:");
+let min = prompt("Minutos:");
+let sec = prompt("Segundos:");
+contador(min, sec);
+
+function contador(m, s){
+
+    while(s > 59){
+        m++;
+    }
+}
+
+
+
 

@@ -10,7 +10,14 @@ function transformar(fr){
 
     for(let i = 0; i < array.length; i++){
 
+        /*if(array[i] -1 == array.match(/[aeiou]/)){
+            array.push("h");
+            array.push("h");        AÑADIR h SI TERMINA EN VOCAL
+            array.push("h");
+        }*/
+
         if(i % 2 == 0){
+            //posición par mayúscula
             fin += array[i].toUpperCase();
         }else{
             fin += array[i].toLowerCase();
