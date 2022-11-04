@@ -1,18 +1,19 @@
 "use strict"
 
-let frase = prompt("Escribe una frase:");
+let frase = prompt("Escribe una frase: ");
 transformar(frase);
 
 function transformar(fr){
     let fin = "";
+    let cambio = fr.replace("c", "k");
 
-    let array = fr.substr();
+    let array = cambio.substr();
 
     for(let i = 0; i < array.length; i++){
 
-        /*if(array[i] -1 == array.match(/[aeiou]/)){
+        /*if(array[i] -1 == array.match("aeiou")){
             array.push("h");
-            array.push("h");        AÑADIR h SI TERMINA EN VOCAL
+            array.push("h");        //AÑADIR h SI TERMINA EN VOCAL
             array.push("h");
         }*/
 
