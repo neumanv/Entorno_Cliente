@@ -7,8 +7,9 @@ pow(num, potencia);
 function pow(x, n){
 
     while(n > 0){
+        
         let res = x ** n;
         document.write(res);
-        break;
+        break;      //la función sólo se hace 1 vez
     } 
 }
