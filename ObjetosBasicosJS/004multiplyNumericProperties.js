@@ -10,4 +10,10 @@ multiplyNumeric(menu);
 
 function multiplyNumeric(men){
 
+    for (let key in obj) {
+
+        if (typeof obj[key] == "number") {
+        obj[key] *= 2;
+        }
+    }
 }
