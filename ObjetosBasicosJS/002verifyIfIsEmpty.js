@@ -2,17 +2,35 @@
 
 let schedule = {};
 
-function isEmpty(sc){
+//CON EL OBJETO VACÍO ES TRUE
 
-    if(sc.length === 0){
-        return true;
-    }else{
+function isEmpty(obj){
+
+    for(let key in obj){
         return false;
     }
+
+    return true;
 }
 
 alert( isEmpty(schedule) ); // true
 
-/*-------------------------------------------------------*/
-schedule["8:30"] = "Hora de levantarse";
-alert( isEmpty(schedule) ); // false
+/*-------------------------------------------------------
+
+ASÍ DARÍA FALSE
+
+let schedule = {
+
+    hola: "hola"
+};
+
+function isEmpty(obj){
+
+    for(let key in obj){
+        return false;
+    }
+
+    return true;
+}
+
+alert( isEmpty(schedule) );*/
