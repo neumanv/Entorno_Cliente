@@ -1,14 +1,20 @@
 "use strict"
 
 let ladder = {
+
     step: 0,
-    up() {
-      this.step++;
+    up(){
+        this.step++;
+        return this;
     },
-    down() {
-      this.step--;
+    down(){
+        this.step--;
+        return this;
     },
-    showStep: function() { // muestra el peldaño actual
-      alert( this.step );
+    showStep: function(){ 
+        alert(this.step);
+        return this;
     }
 };
+
+ladder.up().up().down().showStep().down().showStep();
