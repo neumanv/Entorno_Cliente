@@ -15,5 +15,5 @@ let calculator = {
 };
 
 calculator.read();
-document.write(calculator.sum()+ "<br>");
+document.write(calculator.sum() + "<br>");
 document.write(calculator.mul());
