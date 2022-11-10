@@ -1,8 +1,8 @@
 "use strict"
 
 function A(){
-    let z = 8;
-    return this.z;
+    let b = 8;
+    return this.b;
 }
 
 function B(){
