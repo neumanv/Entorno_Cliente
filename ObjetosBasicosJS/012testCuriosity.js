@@ -5,7 +5,7 @@ superiores son demasiado grandes para representarlos de forma precisa como enter
 
 SOLUCIÓN*/
 
-let bd = BigInt(9999999999999999);
+let bd = BigInt("9999999999999999");
 alert(bd);
 
 /*Con una variable BigInt si lo puede mostrar*/
