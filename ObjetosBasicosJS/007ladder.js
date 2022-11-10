@@ -3,6 +3,7 @@
 let ladder = {
 
     step: 0,
+    //el this. hace que se recoja el dato de la acción anterior
     up(){
         this.step++;
         return this;
