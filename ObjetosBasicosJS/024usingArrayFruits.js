@@ -3,7 +3,7 @@
 var fruits = ["Banana", "Manzana", "Fresa"];
 
 //Añadimos cereza al principio
-fruits.unshift("Cereza")
+fruits.unshift("Cereza");
 
 /*  También podría añadirse con:
 
