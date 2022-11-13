@@ -29,7 +29,7 @@ alert("Eliminar 1er elemento: " + fruits);
 fruits.pop();
 alert("Eliminar último elemento: " + fruits);
 
-//Mostrar cada elemento con for of o for in, lo que considere más adecuado.
+//Mostrar cada elemento con for of o for in, lo que considere más adecuado
 for(let fruta of fruits){
     alert(fruta);
 }
