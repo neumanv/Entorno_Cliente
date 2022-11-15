@@ -11,7 +11,8 @@ var grupos = [
 //alert(grupos.filter(grupo => grupo.genero == "Heavy Metal"));     [Metallica, Heavy Metal]
 
 //Busca en los grupos usando “find” el grupo con Nombre “Cold Play”.
-//alert(grupos.find(grupo => grupo.nombre == "Cold Play"));       [Metallica, Heavy Metal]
+let cplay = (grupos.find(grupo => grupo.nombre == "Cold Play"));
+alert(cplay.nombre);
 
 //¿En qué posición del array se encuenta “Cold Play”?
 alert("Cold Play está en la posición: " + grupos.findIndex(grupos => grupos.nombre == "Cold Play"));
